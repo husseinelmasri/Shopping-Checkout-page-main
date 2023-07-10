@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color:#000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a{
+    color:#262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width:90%;
+    max-width: 1100px;
+    margin:auto;
+  
+}
+img {
+max-width:100%;
+}
+
+
+label{
+    display: block;
+}
+
+h1{
+    margin-top: 3rem;
+}
+.checkout{
+
+    margin-top:2rem;
+    display: flex;
+    gap:10rem;
+}
+.second{
+    margin-top:3rem;
+}
+
+form div{
+    position: relative;
+    margin-top:1rem;
+    
+}
+
+input[type=text], input[type=number] , select {
+    
+    border-radius: 5px;
+    padding:0.5rem;
+    padding-left:2rem;
+    width: 100%;
+    border:0.5px solid grey;
+}
+
+i{
+    position: absolute;
+    top:40px;
+    left:7px;
+    color:rgb(165, 152, 152);
+}
+
+
+.side-by-side{
+    display: flex;
+    gap:4rem;
+  
+    
+}
+input[type=checkbox]{
+    margin-top:2rem;
+    margin-right: 0.5rem;
+}
+
+
+.items{
+    background-color: #F2F2F2;
+    height: 450px;
+    border-radius: 10px;
+    
+   
+}
+
+.items img{
+    width: 30%;
+    height: 30%;
+   
+    border-radius: 5px;
+}
+
+.item-container{
+    padding:3rem;
+}
+.orange{
+    color:#F2994A;
+}
+
+s{
+    color:#000;;
+    font-size: 0.9rem;
+    margin-left:0.5rem
+}
+.display-flex{
+    display: flex;
+    gap:2rem;
+    margin-top:1rem;
+}
+.add-sub{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:2rem;
+ text-align: center;
+    border:2px solid #BDBDBD;
+    border-radius: 5px;
+}
+.minus,.plus{
+    display: inline-block;
+    background-color: #BDBDBD;;
+    width: 20px;
+    margin-top:0.3rem;
+    margin-bottom: 0.3rem;
+
+
+}
+
+
+.total{
+    margin-top:50px;
+}
+.totalamount{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #BDBDBD;
+    
+
+}
+button{
+    margin-top:1rem;
+    display: block;
+    background-color: #F2994A;
+    color:#fff;
+    border: 0.5px solid #F2994A;
+    border-radius: 5px;
+    padding:0.5rem;
+  margin-left:80%;
+}
+
+@media(max-width:860px){
+ 
+.checkout{
+   flex-direction: column-reverse;
+}
+
+
+   
+}
